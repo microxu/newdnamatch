@@ -85,7 +85,7 @@ namespace newdnagraph
             {
                 for (int m = 0; m < f.Count; m++)
                 {
-                    if (f[m].Source == source && f[m].Target == target)
+                    if ((f[m].Source == source && f[m].Target == target) || ((f[m].Source == target && f[m].Target == source)))
                     {
                         sF = new Fragments(f[m]);
                         break;
