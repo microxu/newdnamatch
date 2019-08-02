@@ -116,26 +116,32 @@ namespace newdnagraph
             HashSet<string> sRedun = new HashSet<string>();
             string strTemp = "";
             for (int i = 0; i < l.Count - 1; i++)
-                for (int j = i + 1; j < l.Count; j++)
+                if (l[i].Trim() != "")
                 {
-                    strTemp = InsideMatch(l[i],l[j]);
-                    if (strTemp != "")
-                    {
-                        sRedun.Add(strTemp);
-                    }
-                    else
-                    {
-                        fTemp = this.FindFragments(_fList, l[i], l[j]);
-                        if (fTemp == null)
+                    for (int j = i + 1; j < l.Count; j++)
+                        if (l[j].Trim() != "")
                         {
-                            this.InsertFragmentsList(_fList, l[i], l[j]);
-                            this.InsertFragmentsList(fR, l[i], l[j]);
+                            {
+                                strTemp = InsideMatch(l[i], l[j]);
+                                if (strTemp != "")
+                                {
+                                    sRedun.Add(strTemp);
+                                }
+                                else
+                                {
+                                    fTemp = this.FindFragments(_fList, l[i], l[j]);
+                                    if (fTemp == null)
+                                    {
+                                        this.InsertFragmentsList(_fList, l[i], l[j]);
+                                        this.InsertFragmentsList(fR, l[i], l[j]);
+                                    }
+                                    else
+                                    {
+                                        fR.Add(fTemp);
+                                    }
+                                }
+                            }
                         }
-                        else
-                        {
-                            fR.Add(fTemp);
-                        }
-                    }
                 }
             foreach (string sItem in sRedun)
             {
