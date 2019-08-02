@@ -1,0 +1,6 @@
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\bin\Debug\newdnagraph.exe.config
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\bin\Debug\newdnagraph.exe
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\bin\Debug\newdnagraph.pdb
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\obj\Debug\newdnagraph.csprojResolveAssemblyReference.cache
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\obj\Debug\newdnagraph.exe
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraph\obj\Debug\newdnagraph.pdb

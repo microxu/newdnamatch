@@ -1,0 +1,9 @@
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\newdnagraphTests.dll
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\newdnagraphTests.pdb
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\newdnagraph.exe
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\newdnagraph.pdb
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\obj\Debug\newdnagraphTests.csprojResolveAssemblyReference.cache
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\obj\Debug\newdnagraphTests.dll
+D:\AllKindofTest\VSTest\newdnagraph\newdnagraph\newdnagraphTests\obj\Debug\newdnagraphTests.pdb

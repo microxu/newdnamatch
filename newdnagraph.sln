@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newdnagraph", "newdnagraph\newdnagraph.csproj", "{6558EAAF-7355-4EDD-BBAA-CEB1A56FB558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newdnagraphTests", "newdnagraphTests\newdnagraphTests.csproj", "{39A73472-6154-4BB0-A1E6-A843B447E6FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6558EAAF-7355-4EDD-BBAA-CEB1A56FB558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6558EAAF-7355-4EDD-BBAA-CEB1A56FB558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6558EAAF-7355-4EDD-BBAA-CEB1A56FB558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6558EAAF-7355-4EDD-BBAA-CEB1A56FB558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A73472-6154-4BB0-A1E6-A843B447E6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A73472-6154-4BB0-A1E6-A843B447E6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A73472-6154-4BB0-A1E6-A843B447E6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A73472-6154-4BB0-A1E6-A843B447E6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
