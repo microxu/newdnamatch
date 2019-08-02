@@ -238,21 +238,23 @@ namespace newdnagraph
                 return;
             }
             lMax = this.GetAllMaxOverlapString(OriginalList, ltempResult);
-            OriginalList = this.CopyOList(OriginalList);
-            ltempResult = this.CopyOList(ltempResult);
-            for (int i = 0; i < lMax.Count; i++)
+            if (lMax.Count > 0)
             {
-                OriginalList.Remove(lMax[i].Source);
-                OriginalList.Remove(lMax[i].Target);
-                OriginalList.Add(lMax[i].OverLap);
-                DfsReconstructFragment(OriginalList, lMax, ltempResult);
+                OriginalList = this.CopyOList(OriginalList);
+                ltempResult = this.CopyOList(ltempResult);
+                for (int i = 0; i < lMax.Count; i++)
+                {
+                    OriginalList.Remove(lMax[i].Source);
+                    OriginalList.Remove(lMax[i].Target);
+                    OriginalList.Add(lMax[i].OverLap);
+                    DfsReconstructFragment(OriginalList, lMax, ltempResult);
 
-                OriginalList.Add(lMax[i].Source);
-                OriginalList.Add(lMax[i].Target);
-                OriginalList.Remove(lMax[i].OverLap);
+                    OriginalList.Add(lMax[i].Source);
+                    OriginalList.Add(lMax[i].Target);
+                    OriginalList.Remove(lMax[i].OverLap);
 
+                }
             }
-
         }
         private string InsideMatch(string source,string target)
         {
