@@ -23,5 +23,17 @@ namespace newdnagraph.Tests
 
             Assert.AreEqual("Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.", actual);
         }
+        [TestMethod()]
+        public void ReconstructFragmentSentencesTest2()
+        {
+            var fragments = " ; ; ; ; ; "
+                .Split(';')
+                .ToList();
+
+            ProcessFragments p = new ProcessFragments();
+            string actual = p.ReconstructFragmentSentences(fragments);
+
+            Assert.AreEqual("", actual);
+        }
     }
 }
