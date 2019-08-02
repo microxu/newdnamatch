@@ -121,13 +121,12 @@ namespace newdnagraph
                     for (int j = i + 1; j < l.Count; j++)
                         if (l[j].Trim() != "")
                         {
-                            {
-                                strTemp = InsideMatch(l[i], l[j]);
-                                if (strTemp != "")
+                            strTemp = InsideMatch(l[i], l[j]);
+                            if (strTemp != "")
                                 {
                                     sRedun.Add(strTemp);
                                 }
-                                else
+                            else
                                 {
                                     fTemp = this.FindFragments(_fList, l[i], l[j]);
                                     if (fTemp == null)
@@ -139,7 +138,6 @@ namespace newdnagraph
                                     {
                                         fR.Add(fTemp);
                                     }
-                                }
                             }
                         }
                 }
