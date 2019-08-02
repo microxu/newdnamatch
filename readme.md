@@ -1,0 +1,1 @@
+### The greedy algorithm is optimized . to store the overlap between fragments ,so that to reduce the overhead of recursion
